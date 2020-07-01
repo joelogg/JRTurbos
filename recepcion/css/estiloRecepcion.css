@@ -1,0 +1,323 @@
+body
+{
+	background-color: #EEE;
+	margin: 0;
+}
+
+div#contenidoTotal
+{
+	/*width: 1366px;
+	height: 768px;*/
+}
+
+div#cabezera
+{
+
+	background: linear-gradient(#00A, #DDD);
+	border: 0;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	padding: 0;
+}
+
+
+img#logo
+{
+	height: 100px;
+	width: 200px;
+}
+
+img#logoPeque
+{
+	height: 90px;
+	width: 130px;
+} 
+
+button#btnCerrarSesion
+{
+	margin-right: 20px;
+	margin-top: 30px;
+	float: right;
+}
+
+
+section#secBotones
+{
+	width: 600px;
+	height: 300px;
+	display: inline-block;
+	margin-top: 5%;	
+}
+
+
+section#secBContrato
+{
+	width: 300px;
+	height: 300px;
+}
+
+button.btnPrincipal
+{
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+
+
+
+button#btnContrato
+{
+	background-image:url(../img/cotizacion.png);
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 90% 90%;
+  	width: 300px;
+	height: 300px;
+}
+
+button#btnTurbo
+{
+	background-image:url(../img/turbo.png);
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 90% 90%;
+}
+
+button#btnCliente
+{
+	background-image:url(../img/cliente.png);
+	background-repeat: no-repeat;
+	text-align:center;
+	background-size: 90% 90%;
+}
+
+button#btnResumen
+{
+	background-image:url(../img/resumen.png);
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 75% 90%;
+}
+
+button#btnProforma
+{
+	background-image:url(../img/proforma.png);
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 75% 90%;
+}
+
+button#btnGarantia
+{
+	background-image:url(../img/garantia.png);
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 75% 90%;
+}
+
+button#btnProduccion
+{
+	background-image:url(../img/produccion.png);
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 75% 90%;
+}
+
+
+
+p.textBtn
+{
+	font-size: 19px;
+	color: white; 
+	text-shadow: 0 0 0.9em #222, 0 0 0.9em #222, 0 0 0.9em #222;
+}
+
+
+table.table 
+{
+    border-collapse: collapse;    
+    box-shadow: 0 4px 8px 0 rgba(200,200,250,0.2),0 6px 20px 0 rgba(200,200,200,0.5)!important;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+}
+
+.table th, .table td 
+{
+    text-align: left;
+    padding: 10px;
+    width: auto;
+}
+.table th
+{
+	color: #fff!important;
+    background-color: #2196F3!important;
+    text-align: left;
+}
+.table td 
+{
+	border-bottom: 1px solid #ddd;
+}
+.table tr:nth-child(even)
+{
+	background-color: #fff;
+}
+.table tr:nth-child(odd)
+{
+	background-color: #f2f2f2;
+}
+.table tr:hover
+{
+    background-color: #A9E2F3;
+}
+
+
+
+button.btn130
+{
+	width: 130px;
+	height: 130px;
+	margin-top: 20px;
+}
+
+button.btn130_margin0
+{
+	width: 130px;
+	height: 130px;
+}
+
+button.btn130_float
+{
+	float: left;
+	width: 130px;
+	height: 130px;
+}
+
+
+button#btnGuardar
+{
+	background-image:url(../img/guardar.png);
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 80% 80%;
+  	border: 1px solid #777;
+  	opacity: 0.5;
+}
+
+
+button#btnAtras
+{
+	background-image:url(../img/volver.png);
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 100% 100%;
+  	border: 1px solid #777;
+}
+
+
+
+
+button#btnImprimeProforma
+{
+    background-image:url(../img/cotizar.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+}
+
+button#btnFinalizar
+{
+    background-image:url(../img/finalizar.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+}
+
+
+section#infoSeleccionada
+{
+    width: auto;
+    min-height: 390px;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    overflow: auto;
+    margin-right: 130px;
+}
+
+
+
+section#listaTurbos
+{
+    overflow: auto;
+    background-color: white;
+    /*top: 200px;*/
+}
+
+section#botonesMedio
+{
+	height: 130px;
+	width: 130px;
+	float: right;
+}
+
+section#contenidoMedio
+{
+    height: 100%;
+	margin: 0;
+	background-color: white;
+	min-height: 130px;
+	overflow: auto;
+    height: calc(100vh - 50px);
+}
+
+button.btnOpcionesCentro
+{
+	background-repeat:no-repeat;
+  	background-position:center;
+  	background-size: 100% 100%;
+}
+
+button.btnOpciones
+{
+	width: 128px;
+	height: 128px;
+	border: 1px solid #555;
+	float: left;
+	opacity: 1;
+	background-color: #999;
+	padding: 0;
+}
+
+button.btnElimnar
+{
+    width: 40px;
+    height: 25px;
+    border: 0px;
+    border-color: #000;
+    background-color: inherit;
+    background-image:url(../img/eliminar.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+button.btnAccAbajo
+{
+	margin-bottom: 3px;
+	margin-right: 2px;
+}
+
+
+@media print{
+  .oculto-impresion, .oculto-impresion *{
+    display: none !important;
+  }
+}
+
+.btnRegresarEstado:disabled
+{
+	background-color: #2196F3;
+	opacity: 1 !important;
+	border: none;
+	font-weight: 600;
+}

@@ -1,0 +1,118 @@
+body
+{
+	background-color: #EEE;
+	margin: 0;
+}
+
+div#cabezera
+{
+
+	background: linear-gradient(#00A, #DDD);
+	border: 0;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+	padding: 0;
+}
+
+
+img#logo
+{
+	height: 100px;
+	width: 200px;
+}
+
+img#logoPeque
+{
+	height: 90px;
+	width: 130px;
+} 
+
+button#btnCerrarSesion
+{
+	margin-right: 20px;
+	margin-top: 30px;
+	float: right;
+}
+
+
+
+table.table 
+{
+    border-collapse: collapse;    
+    box-shadow: 0 4px 8px 0 rgba(200,200,250,0.2),0 6px 20px 0 rgba(200,200,200,0.5)!important;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.table th, .table td 
+{
+    text-align: left;
+    padding: 10px;
+    width: auto;
+}
+.table th
+{
+	color: #fff!important;
+    background-color: #2196F3!important;
+    text-align: left;
+}
+.table td 
+{
+	border-bottom: 1px solid #ddd;
+}
+.table tr:nth-child(even)
+{
+	background-color: #fff;
+}
+.table tr:nth-child(odd)
+{
+	background-color: #f2f2f2;
+}
+.table tr:hover
+{
+    background-color: #A9E2F3;
+}
+
+
+table.tableBtnAcc 
+{
+    border-collapse: collapse;    
+    box-shadow: 0 4px 8px 0 rgba(200,200,250,0.2),0 6px 20px 0 rgba(200,200,200,0.5)!important;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%
+}
+
+.tableBtnAcc td 
+{
+    text-align: left;
+    padding: 0px;
+    width: auto;
+    height: auto;
+}
+
+.btnAccExt
+{
+	width: 100%;
+	height: 70px;
+	background-color: white;
+}
+
+.btnGruAccExt
+{
+    height: 100%;
+}
+
+section#popUp
+{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    visibility:hidden;
+
+}
+
+section#contenidoPopUp
+{
+    margin-top: 100px;
+    background-color: #EEE;
+}
+

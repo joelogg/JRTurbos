@@ -1,0 +1,254 @@
+section#cabezeraT
+{
+    width: 30%;
+    height: 100%;
+    border: 0;
+    margin: 0;
+    float: left;
+    overflow: auto;
+}
+
+section#contenidoMedio2
+{
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    background-color: white;
+    padding-bottom: 130px;
+    min-height: 480px;
+
+}
+
+
+table.tablaImprimir
+{
+    width: 725px;
+    /*height: 555px;*/
+    border-collapse: collapse;      
+}
+
+.tablaImprimir tr
+{
+    padding: 0;
+}
+.tablaImprimir th, .tablaImprimir td 
+{
+    text-align: left;
+    /*background-color: white;*/
+    padding: 0;
+}
+
+/******************************************************/
+
+
+table#datosArriba
+{
+    width: 100%;
+    border-collapse: collapse;  
+}
+#datosArriba td 
+{
+    text-align: left;
+    width: auto;
+}
+
+img#logoImprimir
+{
+    width: 200px;
+    height: 110px;
+}
+
+p.sinEspacios
+{
+    margin: 0;
+}
+
+p.pocoInterlinea
+{
+    line-height:13px
+}
+
+p.pPequenio
+{
+    font-size: 11px;
+}
+
+p.pMediano
+{
+    font-size: 18px;
+}
+
+section#numDocu
+{
+    border: 1px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/**************************************************************/
+table#datosMedio
+{
+    width: 100%;
+    height: 264px;
+    border-collapse: collapse;  
+}
+#datosMedio td 
+{
+    text-align: left;
+    width: auto;
+}
+
+table#datosClienteDescripcion
+{
+    width: 450px;    
+}
+#datosClienteDescripcion td 
+{
+    text-align: left;
+    width: auto;
+}
+
+table#descripcion
+{
+    width: 100%; 
+    border-collapse: collapse;    
+}
+
+#descripcion th,  #descripcion td
+{
+    border: 1px solid #555;
+    width: auto;
+    margin: 0;
+}
+#descripcion th
+{
+    text-align: center;
+    background-color: #2196F3;
+}
+#descripcion td
+{
+    text-align: left;
+}
+
+table#datosDerecha
+{
+    width: 256px;
+    border-collapse: collapse; 
+}
+#datosDerecha td 
+{
+    text-align: left;
+    width: auto;
+}
+/**************************************************************/
+table#datosAbajo
+{
+    width: 100%;
+    border-collapse: collapse;  
+}
+#datosAbajo td 
+{
+    text-align: left;
+}
+
+#tdobservaciones
+{
+    width: 515px;
+
+}
+#observaciones
+{
+    border: 1px solid #555;
+    border-radius: 10px;
+    min-height: 40px;
+}
+
+table#precioTotal
+{
+    width: 256px;
+    border-collapse: collapse; 
+    margin-left: 5px; 
+}
+#precioTotal td 
+{
+    text-align: left;
+    width: auto;
+    border: 1px solid #555;
+    
+}
+
+
+button.btnTNumeros
+{
+    width: 100px;
+    height: 80px;
+    font-size: 24px;
+}
+
+input#precioProUni
+{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+}
+
+button#btnGuardarPrecio
+{
+    width: 100px;
+    height: 80px;
+    background-color: inherit;
+    border: 1px solid gray;
+    background-image:url(../img/check.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+button#btnCancelarPrecio
+{
+    width: 100px;
+    height: 80px;
+    background-color: inherit;
+    border: 1px solid gray;
+    background-image:url(../img/eliminar.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+button.btnAcc
+{
+    width: auto;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid gray;
+    background-color: inherit;
+}
+
+button#btnImprimeProforma
+{
+    background-image:url(../img/cotizar.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+}
+
+button#btnFinalizar
+{
+    background-image:url(../img/finalizar.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+}
+
+button#btnRegresar
+{
+    background-color: #FFF;
+    background-image:url(../img/casa.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100% 100%;
+}
